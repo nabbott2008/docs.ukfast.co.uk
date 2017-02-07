@@ -1,1 +1,11 @@
-need to update
+# eCloud overview
+
+Within your eCloud management area in MyUKFast you should be able to see a list of all your active virtual machines and provision any new ones. 
+
+Private and Hybrid customers should also be able to see a summary of their available resources:
+
+![eCloud overview](files/overview.png)
+
+This example eCloud Hybrid configuration has 2 hardware nodes and 3 datastores available for storage.
+
+The Memory allocated and Datastores view shows the amount of memory and storage used out of the amount available.
