@@ -25,3 +25,12 @@ At this point you're ready to go and can click `Add DNS Record`, but you might w
 If you know that you're going to be providing or using e-mail services from this domain, you can save yourself a lot of time by keying in the e-mail exchanger information here. We suggest you type `mail.mydomain.example` into the `MX Exchanger` field and set the `MX Priority` to `10`. This will automatically set the required `A` records for your domain and also configure the `MX` record to use it. If you're unsure what all this is about, you can safely skip this part.
 
 After you've entered everything you need and you're ready to import the domain, simply click `Add DNS Record` and you're good to go.
+
+If you purchased your domain from another provider or imported your domain to UKFast, you may need to change the nameservers to:
+
+ns0.ukfast.net
+ns1.ukfast.net
+
+These should be changed in your domain registrar's portal or in the nameservers section of your domain if you imported it to UKFast:
+
+![Change nameservers](files/nameservers.png)
